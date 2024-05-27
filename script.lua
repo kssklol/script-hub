@@ -51,6 +51,12 @@ about:AddParagraph("作者:鲨.")
 about:AddParagraph("更新以及反馈QQ群:728293118")
 about:AddParagraph("倒卖没亩 ")
 
+local Tab = Window:MakeTab({
+    Name = "选择",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
 Tab:AddButton({
 	Name = "普通版",
 	Callback = function()
