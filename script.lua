@@ -61,6 +61,6 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "高级版",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/kssklol/script-hub/main/script.txt"))()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/kssklol/script-hub/main/script.lua"))()
   	end    
 })
