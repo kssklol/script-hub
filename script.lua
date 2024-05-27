@@ -59,8 +59,8 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "高级版",
+	Name = "高级版(测试不要看)",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/kssklol/script-hub/main/script.lua"))()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/disihabskxhsb/lololol/main/lolbro.txt"))()
   	end    
 })
